@@ -54,7 +54,7 @@ public class BankController {
             case 3:
                 System.out.println("Username: " + user.getClientAccountName());
                 System.out.println("Account Name" + user.getClientAccountName());
-                System.out.println("Balance" + user.getClientAccountName());
+                System.out.println("Balance" + user.getClientAccountBalance());
                 
             default:
                 System.out.println("Invalid decision");
