@@ -33,7 +33,7 @@ public class BankController {
         
            while(true){
         
-        System.out.println("1. Type 1 to Deposit \n2. Type 2 to Withdraw");
+        System.out.println("1. Type 1 to Deposit \n2. Type 2 to Withdraw \n3. Type 3 to Show your details");
         
         Scanner sc = new Scanner(System.in);
         int choice = sc.nextInt();
@@ -51,6 +51,11 @@ public class BankController {
                 user.setClientAccountBalance(amountToWithdraw, "withdraw");
                 System.out.println("Your new balance is " + user.getClientAccountBalance());
                 break;
+            case 3:
+                System.out.println("Username: " + user.getClientAccountName());
+                System.out.println("Account Name" + user.getClientAccountName());
+                System.out.println("Balance" + user.getClientAccountName());
+                
             default:
                 System.out.println("Invalid decision");
         }
