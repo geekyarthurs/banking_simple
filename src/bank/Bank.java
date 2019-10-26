@@ -60,7 +60,7 @@ public class Bank {
     }
     
     public void setClientName(String clientName) {
-        this.clientName = clientName;
+        this.clientName = clientName; //testing
     }
     
 }
